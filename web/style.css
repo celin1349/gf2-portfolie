@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+*{
+	margin: 0 0 0 0;
+}
+
+
+
+/*farve kode rosa lys #c5a8ad */
+
+.innerwrapper{
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+
+/* --------------------------------------------row1*/
+
+.row1{
+	
+	
+	height: 70px;
+	margin: auto;
+	display: flex;
+	
+
+	
+	
+}
+
+h3{
+	font-family:'Jura', sans-serif;
+	color: #fff;
+	font-size: 200px; 
+	
+}
+.menu{
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	
+	
+}
+
+.menu li{
+	
+	color:#000;
+	margin-right: 40px;
+	font-family: 'Jura', sans-serif;
+	font-size: 25px;
+	
+}
+
+.menu li a {
+	text-decoration:none;
+	color: #fff;
+	
+}
+
+.menu li a:hover{
+	color: #9F9D9D;
+}
+.logo2{
+	max-height: 40px;
+	max-width: 40px;
+	margin-right: 10px;
+	
+	
+	
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #3A3C4B;
+  float: right;
+  width: 80%;
+  background: #3A3C4B;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #3A3C4B;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #3A3C4B;
+  border-right: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #9F9D9D;
+}
+
+/* Clear floats */
+form.example::after {
+ 
+  clear: both;
+  display: table;
+}
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #9F9D9D;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+
+/* -------------------------------------------------------row 2*/
+
+/*	background-image:url(../moordbord/bavgrund.jpg);
+	background-position:80%;
+	background-repeat: no-repeat;*/
+
+.row2{
+
+	height:100vh;
+	margin: auto;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	background-image:url( ../moordbord/vektornu.svg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-color: #3A3C4B;
+	background-size: cover;
+	
+	
+	
+	
+}
+.zoom{ 
+  transition: transform .1s; /* Animation */  
+  margin: auto;
+  
+}
+
+.zoom:hover{
+	transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.boxtekst{
+	transition: transform .2s; /* Animation */
+	width: 35%;
+	margin-top: 100px;
+	
+}
+.zoom2{
+	
+	
+	margin: auto;
+	text-align: left 5px;
+}
+
+.boxtekst:hover{
+	transform: scale(1.15);
+}
+
+.flex-between{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 30px;
+	
+}
+.fa-bars{
+	color: #fff;
+}
+
+hr {
+	width: 160px;
+	height: 2px;
+	background-color:#fff;
+	border: 0;
+	margin: auto;
+}
+
+h2{
+	font-size: 6.875em;
+	margin-left: 5px;
+	color: #fff;
+	margin-top: 5px;
+}
+
+
+	
+	
+/*margin: 50px auto 30px ; */
+
+.logo{
+	max-height: 250px;
+	max-width: 250px;
+	margin: 220px auto 30px  ;
+	
+	
+}
+
+.zoom1{
+  	transition: transform .2s; /* Animation */  
+ 	margin: auto;
+		
+}
+
+.zoom1:hover{
+  	transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	
+}
+
+
+
+/*----------------------------------------------------------row 3*/
+
+.row3{
+	height: 10%;
+	background-color: #000;	
+}
+
+/* --------------------------------------------------------row 4*/
+
+.row4{
+	text-align: center;
+	background-color: #3A3C4B;
+	
+	height:100vh;
+	
+}
+
+p{
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	padding: 100px;
+	font-size: 30px;
+	padding-top: 250px;
+	
+}	
+
+
+
+
+
+/*----------------------------------------------------------row 5*/
+
+.row5{
+	height: 70px;
+	background-color:#000;
+}
+
+
+
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+  height: 0;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  
+  
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+  font-family:'Jura', sans-serif; 
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color:  #9F9D9D;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+#open{
+	display: none;
+	
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media screen and (max-width: 760px){
+	.menu{
+		display: none;
+		
+	}
+	#open{
+	display:block;
+	
+	}
+	h2{
+		font-size: 3em;
+	}
+	
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
